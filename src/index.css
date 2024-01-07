@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap');
+.navbar {
+    background-color: #fefcfc;
+    overflow: hidden;
+    justify-content: end;
+    padding: 17px 17px;
+    
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #007d93e4;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #007d93e4;
+    color: rgb(249, 246, 246);
+    border-radius: 10px;
+  }
+ body{
+    background-image: url('assets/background.png');
+    background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
+ } 
+.container {
+    margin-top: 5%;
+    padding: 2rem;
+    border: 1px solid #007d9354;
+    border-radius: 24px;
+    padding: 24px;
+    background-color: white;
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+.container h1 {
+    margin-left: 70%;
+    color: #007d93e4;
+}
+.container p{
+    margin-left: 60%;
+    color: #007d93e4;
+    
+}
+form.signup, form.login,.contact {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 5%;
+    padding: 2rem;
+    border: 1px solid #007d9354;
+    border-radius: 24px;
+    padding: 24px;
+    background-color: white;
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+  }
+  div.error {
+    padding: 10px;
+    background: #ffefef;
+    border: 1px solid var(--error);
+    color: var(--error);
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+  input.error {
+    border: 1px solid var(--error);
+  }
+  label, input {
+    display: block;
+  }
+  input {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  form button {
+    background: var(--primary);
+    border: 0;
+    color: #007d9354;
+    padding: 10px;
+    font-family: "Poppins";
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .dd{
+    background-image: url('./assets/logo2.png');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 100px;
+    padding-right: 950px;
+    
+  }
+.navbar .dd .h5{
+  padding-left: 100px;
+  
+  
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.home .container .h3{
+  text-align: center;
+  color:#1b8798 ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.home .container .h6{
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.server-section-cards-containar{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+#icon{width: 44%;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    border: 3px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #007d9354;
+    text-align: center;
+}
+#icons{
+  width: 200px;
+    height: 200px;
+    background-image: url("./assets/iconarabic.png");
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+  background-size: cover;
+}
+
+#islam{
+  width: 44%;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    border: 3px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #007d9354;
+    text-align: center;
+
+}
+#islam2{
+  width: 200px;
+    height: 200px;
+    background-image: url("./assets/iconislam.png");
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+  background-size: cover;
+}
+#task{
+  width: 44%;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    border: 3px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #007d9354;
+    text-align: center;
+
+}
+#task2{
+  width: 200px;
+    height: 200px;
+    background-image: url("./assets/task.png");
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+  background-size: cover;
+}

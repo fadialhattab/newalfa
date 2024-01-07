@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap');
+.nnn {
+   
+    margin-top: 5%;
+   
+    border: 1px solid #007d9354;
+    border-radius: 24px;
+    margin-left: 300px;
+    background-color: white;
+    width:600px;
+    height: 500px;
+    box-sizing: border-box;
+    
+
+}
+.nnn h1 {
+    margin-left: 70%;
+    color: #007d93e4;
+}
+
+#gg{
+        width: 400px;
+          height: 330px;
+          background-image: url("./assets/ready.png");
+          background-repeat: no-repeat;
+          margin-left: 100px;
+         
+        background-size: cover;
+      }
+#is{
+  width: 400px;
+          height: 330px;
+          background-image: url("./assets/readyislam.png");
+          background-repeat: no-repeat;
+          margin-left: 100px;
+         
+        background-size: cover;
+
+}
+
+.video-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 20px;
+  margin-left: 30px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.video-container {
+  margin-top: 10px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+}
+#pp{
+ margin-top: 30px;
+  font-family: 'Outfit', sans-serif;
+  font-size:x-large;
+  background-color: #007d9354;
+}
